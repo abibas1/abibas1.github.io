@@ -1,0 +1,1 @@
+var e=`study-app.clock-shift-days`,t=864e5;function n(){try{return Math.max(0,Number(localStorage.getItem(e))||0)}catch{return 0}}function r(t){try{t>0?localStorage.setItem(e,String(t)):localStorage.removeItem(e)}catch{}}var i=()=>Date.now()+n()*t,a=e=>Math.ceil((e-i())/t);export{n as i,i as n,r,a as t};

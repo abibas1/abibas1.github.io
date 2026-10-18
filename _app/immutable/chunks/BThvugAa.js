@@ -1,0 +1,1 @@
+function e(e){let t=null,n=0,r=()=>{let t=performance.now(),r=Math.min(40,t-n);n=t,e(r)};return{start(){t===null&&(n=performance.now(),t=setInterval(r,16))},stop(){t!==null&&clearInterval(t),t=null}}}function t(t,n){let r=e(e=>{t.isPlaying&&t.update(e),n()});return r.start(),r}export{t};
