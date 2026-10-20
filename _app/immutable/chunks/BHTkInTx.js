@@ -1,1 +1,0 @@
-import{r as e}from"./NtNGhavs.js";function t(){let t=e(`div`,`progress clock-bar`),n=e(`div`,`progress-fill`);return t.append(n),{node:t,set(e){t.hidden=e===null,e!==null&&(n.style.width=`${Math.max(0,Math.min(1,e))*100}%`)}}}export{t};
