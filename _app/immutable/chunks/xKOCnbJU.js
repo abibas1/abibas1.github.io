@@ -1,0 +1,1 @@
+var e={locale:void 0,alphabet:null},t=({locale:t,alphabet:n=null}={})=>{e={locale:t,alphabet:n?Array.from(n):null}},n=()=>e.locale,r=()=>e.alphabet,i=t=>t.toLocaleLowerCase(e.locale),a=t=>t.toLocaleUpperCase(e.locale);export{a,t as i,n,i as r,r as t};
