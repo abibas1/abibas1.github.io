@@ -1,0 +1,1 @@
+import{i as e}from"./Bilpw1mJ.js";import"./DYxwfPWn.js";var t=`study-app.page-number`;function n(){try{let e=Number(localStorage.getItem(t));return Number.isSafeInteger(e)&&e>=0?e:0}catch{return 0}}var r=n(),i=e(r);function a(){r+=1;try{localStorage.setItem(t,String(r))}catch{}i.set(r)}function o(e){e!=null&&a()}export{i as n,o as r,a as t};
