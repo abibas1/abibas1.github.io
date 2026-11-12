@@ -1,0 +1,1 @@
+var e=e=>`pool|${e.id}`;function t(e,t){let n=e?e.tasks.indexOf(t):-1;return`script|${e?.id??``}|${n}|${t.code}|${(t.words??[]).join(`,`)}`}var n=e=>`reading|${e.id}`,r=e=>`harmony|${e.step}|${e.kind}|${e.suffix}`;export{t as i,e as n,n as r,r as t};

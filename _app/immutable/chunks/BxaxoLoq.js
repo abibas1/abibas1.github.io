@@ -1,1 +1,0 @@
-import{c as e,r as t}from"./C8cz-i22.js";function n(){let n=e(`t00`);return n?t(n.explanation).filter(e=>e.type!==`image`&&e.type!==`examples`&&!(e.type===`text`&&/^Пример/u.test(e.text))):[]}export{n as harmonyIntro};
