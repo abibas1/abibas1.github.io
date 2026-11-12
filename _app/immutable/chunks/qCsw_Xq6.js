@@ -1,1 +1,0 @@
-import{r as e}from"./DYxwfPWn.js";import{t}from"./BRURhG4O.js";var n=null;function r(e){n=e}function i(){return n?n():!1}var a=()=>!t()&&e()?.track===`advanced`?`/course`:`/`;export{i as n,r,a as t};

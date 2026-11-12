@@ -1,0 +1,1 @@
+import{r as e}from"./DYxwfPWn.js";import{t}from"./BRURhG4O.js";var n=(e,t)=>e?.track===`advanced`&&(!t||e.teacher===!0),r=()=>n(e(),t())?`/course`:`/`;export{r as n,n as t};
