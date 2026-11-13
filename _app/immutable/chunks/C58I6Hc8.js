@@ -1,0 +1,1 @@
+import{i as e,l as t}from"./na5j9MFa.js";function n(){let n=t(`t00`);return n?e(n.explanation).filter(e=>e.type!==`image`&&e.type!==`examples`&&!(e.type===`text`&&/^Пример/u.test(e.text))):[]}export{n as harmonyIntro};

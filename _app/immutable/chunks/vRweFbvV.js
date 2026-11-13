@@ -1,0 +1,1 @@
+var e={ready:!1,operatorName:``,operatorStatus:``,country:``,address:``,taxId:``,email:``,supportTelegram:``,minAge:``,priceTerms:``,refundTerms:``,governingLaw:``,court:``,retention:``,effectiveDate:``};export{e as t};

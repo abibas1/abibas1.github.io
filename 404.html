@@ -5,6 +5,19 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 		<meta name="text-scale" content="scale" />
 		<meta name="theme-color" content="#fbf8f4" />
+		<!-- Not for search engines, page archives or AI collectors (static/robots.txt says the same). -->
+		<meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noai, noimageai" />
+		<!-- Where the page may take code from and whom it may talk to: itself, the app's server and
+		     Telegram's script; the owner's video feed adds YouTube, TikTok and Instagram. A script from
+		     anywhere else is refused by the phone. The app's own start script below and the phone's
+		     database (wasm) need the inline and eval words. -->
+		<meta
+			http-equiv="Content-Security-Policy"
+			content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' 'wasm-unsafe-eval' https://telegram.org https://www.youtube.com https://www.tiktok.com https://www.instagram.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; media-src 'self' data: blob:; font-src 'self' data:; connect-src 'self' https://exrjotsizwvaghteewsa.supabase.co https://www.youtube.com https://www.tiktok.com; frame-src 'self' https:; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self'"
+		/>
+		<!-- The server (src/lib/account/project.json) is spoken to right after the first screen:
+		     the connection is opened while the app's own files are still coming. -->
+		<link rel="preconnect" href="https://exrjotsizwvaghteewsa.supabase.co" crossorigin />
 		<script>
 			// Inside Telegram (the mini app) Telegram's own script is loaded, and only there:
 			// Telegram opens the page with its launch details after the # sign, and its phones
@@ -46,30 +59,32 @@
 				document.documentElement.dataset.theme = 'light';
 			}
 		</script>
-		<link href="/_app/immutable/entry/start.0_MbGK5J.js" rel="modulepreload">
+		<link href="/_app/immutable/entry/start.CjKPllW7.js" rel="modulepreload">
 		<link href="/_app/immutable/entry/payload.DSmR2FwN.js" rel="modulepreload">
 		<link href="/_app/immutable/chunks/CRzLMJPS.js" rel="modulepreload">
-		<link href="/_app/immutable/chunks/DjeuF44L.js" rel="modulepreload">
-		<link href="/_app/immutable/chunks/UVQ250Qn.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/D1bC7obA.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/mmWwACGT.js" rel="modulepreload">
 		<link href="/_app/immutable/chunks/Bilpw1mJ.js" rel="modulepreload">
 		<link href="/_app/immutable/chunks/B25SilYO.js" rel="modulepreload">
-		<link href="/_app/immutable/entry/app.CxD0aarO.js" rel="modulepreload">
-		<link href="/_app/immutable/nodes/0.BXEqTJZd.js" rel="modulepreload">
+		<link href="/_app/immutable/entry/app.DEfgVeFD.js" rel="modulepreload">
+		<link href="/_app/immutable/nodes/0.WcGMBh6Q.js" rel="modulepreload">
 		<link href="/_app/immutable/chunks/g8ARPMAu.js" rel="modulepreload">
 		<link href="/_app/immutable/chunks/Eug4GD-T.js" rel="modulepreload">
 		<link href="/_app/immutable/chunks/WXskelb6.js" rel="modulepreload">
-		<link href="/_app/immutable/chunks/BTPrI7BV.js" rel="modulepreload">
-		<link href="/_app/immutable/chunks/CED08hig.js" rel="modulepreload">
-		<link href="/_app/immutable/chunks/B31rJHiI.js" rel="modulepreload">
-		<link href="/_app/immutable/chunks/CfxuLiM9.js" rel="modulepreload">
-		<link href="/_app/immutable/chunks/Dux9hOJ1.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/ClzJApnb.js" rel="modulepreload">
 		<link href="/_app/immutable/chunks/CV8Ix0Vr.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/B-vBaVzI.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/0av2xbns.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/CfxuLiM9.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/BEo2JRLn.js" rel="modulepreload">
 		<link href="/_app/immutable/chunks/BRURhG4O.js" rel="modulepreload">
 		<link href="/_app/immutable/chunks/Dl9G4CmZ.js" rel="modulepreload">
-		<link href="/_app/immutable/chunks/DLpwxQ7g.js" rel="modulepreload">
-		<link href="/_app/immutable/chunks/sMNGYiNa.js" rel="modulepreload">
-		<link href="/_app/immutable/chunks/KAnrcOXD.js" rel="modulepreload">
-		<link href="/_app/immutable/chunks/DtGj1FGA.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/Bn_0L1GF.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/C6q21bNH.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/WWlM7DlO.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/EfNguAB3.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/CuiOHb7d.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/vRweFbvV.js" rel="modulepreload">
 		
 		<link href="/_app/immutable/assets/Icon.MvzS7mkx.css" rel="stylesheet">
 		<link href="/_app/immutable/assets/0.ByLvPUzc.css" rel="stylesheet">
@@ -78,16 +93,16 @@
 		<div style="display: contents">
 			<script>
 				{
-					__sveltekit_ws4pvg = {
+					__sveltekit_jzzxvc = {
 						base: "",
-						version: "1794550666958"
+						version: "1794601552737"
 					};
 
 					const element = document.currentScript.parentElement;
 
-					import("/_app/immutable/entry/start.0_MbGK5J.js").then(async (kit) => {
-						kit.init(__sveltekit_ws4pvg);
-						const app = await import("/_app/immutable/entry/app.CxD0aarO.js");
+					import("/_app/immutable/entry/start.CjKPllW7.js").then(async (kit) => {
+						kit.init(__sveltekit_jzzxvc);
+						const app = await import("/_app/immutable/entry/app.DEfgVeFD.js");
 						kit.start(app, element);
 					});
 				}
