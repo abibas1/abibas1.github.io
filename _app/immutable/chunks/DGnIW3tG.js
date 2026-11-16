@@ -1,0 +1,13 @@
+var e=100,t=101,n=102,r=103,i=104,a=106,o=105,s=107,c=108,l=109,u=110,d=111,f=112,p=113,m=114,h={id:`tr-ru-a1`,targetLanguage:`tr`,level:`A1`,alphabet:`abcçdefgğhıijklmnoöprsştuüvyz`,baseLanguage:`ru`,title:`Турецкий с нуля`,units:[{number:0,title:`Фразы первой необходимости`},{number:3,title:`Первые слова`}],lessons:{3:3},released:[0,1,2,3,100,101,102,103,104,105,106,107,108,109],harmony:{lesson:100},scripts:{0:{stars:3,review:!0},1:{stars:3,review:!0},2:{stars:3,review:!0},3:{stars:3,review:!0}},pools:{101:{parts:3,required:[0,1,2],label:`bu şu
+o`,name:`Это, то, вон то`,review:{count:12}},102:{parts:3,required:[0,1,2],label:`-da/-de`,name:`Где? У кого? Есть / нет`,review:{count:15,leaveOut:[`P5`,`SC7`]}},103:{parts:3,required:[0,1,2],label:`-den
+-e`,name:`Откуда? Куда?`,review:{count:15,leaveOut:[`P5`]}},104:{parts:3,required:[0,1],label:`-yor`,name:`Настоящее время`,review:{count:15,leaveOut:[`P5`]}},106:{parts:3,required:[0,1,2],label:`1 2 3`,name:`Цифры`,review:{count:15,leaveOut:[`P5`]}},105:{parts:3,required:[0,1,2],label:`bura
+şura
+ora`,name:`Здесь, там, вон там`,review:{count:12,leaveOut:[`P5`]}},108:{parts:5,required:[0,1,2,3,4],label:`-im
+-sin`,name:`Окончания местоимений`,review:{count:15,leaveOut:[`P5`]}},109:{parts:3,required:[0,1,2],label:`nereli
+neresi`,name:`Откуда ты? Где это место?`,review:{count:15,leaveOut:[`P5`]}},110:{parts:4,required:[0,1,2,3],label:`-ecek
+-di`,name:`Будущее и прошедшее время`,review:{count:16,leaveOut:[`P5`]}},111:{parts:4,required:[0,1,2,3],label:`gün
+hafta`,name:`Неделя и времена года: всё вместе`,review:{count:16,leaveOut:[`P5`]}},113:{parts:4,required:[0,1,2,3],label:`daha
+en`,name:`Daha и en: больше, самый`,review:{count:14,leaveOut:[`P5`]},reading:114}},readings:{107:{label:`Ailem`,name:`Читаем и слушаем: семья`},112:{label:`Haftam`,name:`Читаем и слушаем: моя неделя`},114:{label:`Daha iyi`,name:`Читаем и слушаем: daha`}},planned:{115:{label:`için`,name:`İçin: для, ради, чтобы`},116:{label:`her
+hiçbir`,name:`Her, bir, hiçbir: каждый, какой-то, никакой`},117:{label:`-abil`,name:`-abil: могу, умею`},118:{label:`kendi
+hep`,name:`Kendi и hep: сам, свой; всегда, все`},119:{label:`-ı -i
+-u -ü`,name:`Винительный падеж`}},mapOrder:[0,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,1,2,3,...Array.from({length:64},(e,t)=>t+4)],lessonOrder:{3:[`dışarı`,`büyük`,`pahalı`,`kız`,`küçük`,`kapalı`,`iş`,`güzel`,`giriş`,`açık`,`yakın`,`ucuz`,`okul`,`uzak`,`çok`,`yemek`,`az`,`para`,`ev`,`su`,`park`,`numara`,`plaj`,`market`,`AVM`]}},g=Object.fromEntries(Object.entries(h.pools).flatMap(([e,t])=>t.reading?[[t.reading,Number(e)]]:[]));export{g as _,e as a,l as c,i as d,s as f,h as g,f as h,m as i,a as l,d as m,t as n,r as o,u as p,p as r,n as s,o as t,c as u};
