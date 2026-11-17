@@ -1,1 +1,0 @@
-import{i as e,l as t}from"./D1_S-aBs.js";function n(){let n=t(`t00`);return n?e(n.explanation).filter(e=>e.type!==`image`&&e.type!==`examples`&&!(e.type===`text`&&/^Пример/u.test(e.text))):[]}export{n as harmonyIntro};
