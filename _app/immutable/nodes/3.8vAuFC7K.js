@@ -1,1 +1,0 @@
-import{G as e,ft as t,lt as n,pt as r}from"../chunks/B9I-d9Xw.js";import{n as i}from"../chunks/qqZLd2t4.js";import{t as a}from"../chunks/D67cnT76.js";function o(o,s){r(s,!0);{let t=n(i);a(o,{get homework(){return e(t)},back:!0})}t()}export{o as component};
