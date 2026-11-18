@@ -1,0 +1,1 @@
+function e(e,t){return e.toLocaleLowerCase(t)}function t(e){return Array.from(e.normalize(`NFC`)).filter(e=>/[\p{L}\p{N}]/u.test(e)).length}function n(e){return e.replace(/[.,!;:…"«»“”]+/gu,``).trim()||e}export{e as n,n as r,t};
