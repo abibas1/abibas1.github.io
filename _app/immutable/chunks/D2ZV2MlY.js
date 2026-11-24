@@ -1,1 +1,0 @@
-import{t as e}from"./BRURhG4O.js";import{r as t}from"./CcVIl0zQ.js";import{n}from"./CrrL3SjQ.js";import{r}from"./BGZmyb_N.js";var i=()=>e()||n();function a(e,n=t){return i()?!0:r.some(t=>t.topic===e&&n(t.lesson).includes(t.star))}export{a as t};
