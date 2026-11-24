@@ -1,0 +1,1 @@
+import{_t as e,mt as t}from"./0o7xuc3e.js";var n=Symbol(`listening-only`),r=t=>{e(n,()=>t)},i=()=>(t(n)??(()=>!1))();export{r as n,i as t};

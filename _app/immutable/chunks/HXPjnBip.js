@@ -1,0 +1,1 @@
+import{t as e}from"./ByZ0VPr9.js";var t=Object.fromEntries(Object.entries(e.lessons).map(([e,t])=>[Number(e),t]));export{t};
